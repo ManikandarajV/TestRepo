@@ -1,4 +1,15 @@
 hsdihfuisios
 ;sahpgphpishg
-[oihohggf
+[oihohggfdgd
+def g
+dgd
+g
+dgdd
+gd
+gdg
+def gdg
+d():
+	pass():
+	pass
 igooddfgd
+kjgdjkgdkhghkjgkdhjgd

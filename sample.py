@@ -1,26 +1,16 @@
+import boto3
+import sys
 
-hdsihfuisshfhhoi
-sfs
-hdsihfuisosfsfsfsfjhfjhjfhsi
+# secret_key = sys.argv[0]
+# access_key = sys.argv[1]
+# region     = sys.argv[2]
 
-
-;sahpgphjjfjsfsmnirajfsffhddjpishg
-[oihohggfsfsfsfdgd
-
-def g
-dgd
-gisthebest
-dgdd
-gd
-gdfffhfhggjj
-def gdg
-d():
-	pass():
-	pass
-
-igooddfhiiusffhgdhhfhf
-kjgdjkgdkhghkjfmanirajfjjfjgkdhjgd
-gdsgsdgdsgdsg
+def list_instance():
+	client  = boto3.client("ec2")
+	res = client.describe_instances()
+	print (res)
 
 
- egfeu
+def main():
+	list_instance()
+main()

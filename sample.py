@@ -39,3 +39,4 @@ def lambda_handler(event,context):
     formatted_list,amount = parse_json("sample.json")
 #     csv = generate_csv(formatted_list,"cost.csv")
 #     print(display(csv))
+lambda_handler(event,context)

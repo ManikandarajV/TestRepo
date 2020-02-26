@@ -1,0 +1,445 @@
+{
+	"GroupDefinitions": [{
+		"Type": "DIMENSION",
+		"Key": "SERVICE"
+	}],
+	"ResponseMetadata": {
+		"RetryAttempts": 0,
+		"HTTPStatusCode": 200,
+		"RequestId": "0cc33d92-6fbb-11e9-9504-117a913333df",
+		"HTTPHeaders": {
+			"x-amzn-requestid": "0cc33d92-6fbb-11e9-9504-117a913333df",
+			"date": "Mon, 06 May 2019 04:54:37 GMT",
+			"content-length": "5532",
+			"content-type": "application/x-amz-json-1.1"
+		}
+	},
+	"ResultsByTime": [{
+		"Estimated": false,
+		"TimePeriod": {
+			"Start": "2019-01-01",
+			"End": "2019-02-01"
+		},
+		"Total": {},
+		"Groups": [{
+			"Keys": ["AWS Budgets"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "3.1",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["AWS Certificate Manager"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "400",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["AWS CloudTrail"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "761.071759",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["AWS CodeCommit"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "0",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["AWS Config"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "18.833",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["AWS Data Pipeline"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "0.999999984",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["AWS Data Transfer"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "-4.258174",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["AWS Database Migration Service"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "108.624154253",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["AWS Directory Service"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "293.9510325965",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["AWS Glue"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "0",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["AWS IoT"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "0",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["AWS Key Management Service"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "54.0087902324",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["AWS Lambda"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "0.0797778951",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["AWS Service Catalog"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "5",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["AWS Support (Business)"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "543.0938500944",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon API Gateway"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "0.0000105",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon Comprehend"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "0",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon DynamoDB"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "115.3727105325",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon EC2 Container Registry (ECR)"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "0.2294762658",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon EC2 Container Service"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "75.8162221946",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon ElastiCache"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "315.456",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["EC2 - Other"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "3417.8123933405",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon Elastic Compute Cloud - Compute"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "3721.5343015471",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon Elastic Container Service for Kubernetes"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "34.300125668",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon Elastic File System"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "44.5144706832",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon Elastic Load Balancing"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "560.0865291412",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon Elasticsearch Service"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "23.7351236675",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon Glacier"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "0.0000000231",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon GuardDuty"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "7.6619148652",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon Kinesis"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "219.9924666667",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon Kinesis Analytics"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "89.28",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon Lightsail"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "3.4687566666",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon MQ"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "28.272",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon Macie"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "48.009452",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon QuickSight"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "0",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon Redshift"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "937",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon Rekognition"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "0",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon Relational Database Service"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "1184.1614000102",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon Route 53"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "6.0036724",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon SageMaker"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "244.6615999532",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon Simple Notification Service"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "0.0056564651",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon Simple Queue Service"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "0.0000001107",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon Simple Storage Service"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "50.9128404584",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon Simple Workflow Service"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "0.000000003",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon SimpleDB"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "0.0000001639",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon Virtual Private Cloud"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "550.560000449",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Amazon WorkSpaces"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "14.72",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["AmazonCloudWatch"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "109.7297964819",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["Cloud EBS/EC2 Backup and Runtime Scheduler (Scnapper) 2.0"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "29.76",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["CloudWatch Events"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "0.000015",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["VM-Series Next-Generation Firewall Bundle 1"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "479.02",
+					"Unit": "USD"
+				}
+			}
+		}, {
+			"Keys": ["VM-Series Next-Generation Firewall Bundle 2"],
+			"Metrics": {
+				"NetAmortizedCost": {
+					"Amount": "39.68",
+					"Unit": "USD"
+				}
+			}
+		}]
+	}]
+}
+
+
+

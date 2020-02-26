@@ -35,8 +35,8 @@ def parse_json(json_data):
 #     return file_content
 
 
-def lambda_handler(event,context):
+def lambda_handler():
     formatted_list,amount = parse_json("sample.json")
 #     csv = generate_csv(formatted_list,"cost.csv")
 #     print(display(csv))
-lambda_handler(event,context)
+lambda_handler()
